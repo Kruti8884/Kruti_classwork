@@ -1,0 +1,40 @@
+int no;
+no=1;
+while(no<=10)
+{
+	Console.Writeline(no);
+	no++;
+}
+
+
+for(int no=1;no<=10;no++)
+{
+	Console.Writeline(no);
+}
+
+
+string str1,str2,str3;
+Console.Writeline("Enter string 2:");
+str1=Console.Readline();
+Console.Writeline("Enter string 1:");
+str2=Console.Readline();
+int len=str1.Length;
+Console.Writeline("length of string 1 is :" +len);
+str3=str1.ToLower();
+Console.Writeline("String 1 in lower case:" +str3);
+str3=str2.ToUpper();
+Console.Writeline("Sring 2 in upper case:" +str3);
+//combine or concate two strings
+str3=str1+" "+str2;
+Console.Writeline("Combine string is:" +str3);
+//using concate
+str3= string.Concat(str1, "", str2);
+Console.Writeline("Combine string using concat:" +str3);
+//interpolation of string
+int no=100;
+str3=$"Multiplication of number is: {no *10}";
+Comsole.Writeline("String 3 is:"+str3);
+
+
+print first 50 even numbers using for loop and if condition
+

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~\images\_MA_8825.JPG</ImageUrl>
+		<NavigateUrl>https://www.flipkart.com/</NavigateUrl>
+		<Impression>2</Impression>
+		<Keywords>booking,trip</Keywords>
+		<alternateText></alternateText>
+	</Ad>
+	<Ad>
+		<ImageUrl>~\images\_MA_8824.JPG</ImageUrl>
+		<NavigateUrl>https://www.flipkart.com/</NavigateUrl>
+		<Impression>2</Impression>
+		<Keywords>booking,trip</Keywords>
+		<alternateText></alternateText>
+	</Ad>
+</Advertisements>
