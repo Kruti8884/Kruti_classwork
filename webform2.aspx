@@ -29,6 +29,31 @@
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Upload" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+        <br />
+        <br />
+        <br />
+
+
+               <asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0">
+            <asp:View ID="View1" runat="server">
+                hiii this is view 1<br />
+                <asp:Button ID="nextbtn" runat="server" OnClick="nextbtn_Click" Text="Next" />
+            </asp:View>
+            <asp:View ID="View2" runat="server">
+                hii this is view2<br />
+                <br />
+                <asp:Button ID="btnprevious" runat="server" OnClick="btnprevious_Click" Text="Previous" />
+                &nbsp;<asp:Button ID="btnnext" runat="server" OnClick="btnnext_Click" Text="Next" />
+            </asp:View>
+            <br />
+            <asp:View ID="View3" runat="server">
+                hiii this is view 3<br />
+                <br />
+                <asp:Button ID="previousbtn" runat="server" OnClick="previousbtn_Click" Text="Previous" />
+            </asp:View>
+            <br />
+            <br />
+        </asp:MultiView>
     </form>
 </body>
 </html>

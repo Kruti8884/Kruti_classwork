@@ -69,12 +69,20 @@
   <ItemGroup>
     <Content Include="images\_MA_8824.JPG" />
     <Content Include="images\_MA_8825.JPG" />
+    <Content Include="validation.aspx" />
     <Content Include="Web.config" />
     <Content Include="webform2.aspx" />
     <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="validation.aspx.cs">
+      <DependentUpon>validation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="validation.aspx.designer.cs">
+      <DependentUpon>validation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="webform2.aspx.cs">
       <DependentUpon>webform2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
