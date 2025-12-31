@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="autopostback.aspx" />
     <Content Include="images\_MA_8824.JPG" />
     <Content Include="images\_MA_8825.JPG" />
     <Content Include="validation.aspx" />
@@ -75,6 +76,13 @@
     <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="autopostback.aspx.cs">
+      <DependentUpon>autopostback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="autopostback.aspx.designer.cs">
+      <DependentUpon>autopostback.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="validation.aspx.cs">
       <DependentUpon>validation.aspx</DependentUpon>
